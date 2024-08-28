@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mi1\\Desktop\\SleepOb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E005985-6EA9-46D5-8900-F1A8A7C699F5}|SleepOb\\SleepOb.vcxproj|C:\\Users\\mi1\\Desktop\\SleepOb\\SleepOb\\block.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0E005985-6EA9-46D5-8900-F1A8A7C699F5}|SleepOb\\SleepOb.vcxproj|solutionrelative:SleepOb\\block.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E005985-6EA9-46D5-8900-F1A8A7C699F5}|SleepOb\\SleepOb.vcxproj|C:\\Users\\mi1\\Desktop\\SleepOb\\SleepOb\\rop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0E005985-6EA9-46D5-8900-F1A8A7C699F5}|SleepOb\\SleepOb.vcxproj|solutionrelative:SleepOb\\rop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E005985-6EA9-46D5-8900-F1A8A7C699F5}|SleepOb\\SleepOb.vcxproj|C:\\Users\\mi1\\Desktop\\SleepOb\\SleepOb\\convert.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0E005985-6EA9-46D5-8900-F1A8A7C699F5}|SleepOb\\SleepOb.vcxproj|solutionrelative:SleepOb\\convert.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E005985-6EA9-46D5-8900-F1A8A7C699F5}|SleepOb\\SleepOb.vcxproj|C:\\Users\\mi1\\Desktop\\SleepOb\\SleepOb\\common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0E005985-6EA9-46D5-8900-F1A8A7C699F5}|SleepOb\\SleepOb.vcxproj|solutionrelative:SleepOb\\common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 197,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "convert.cpp",
+              "DocumentMoniker": "C:\\Users\\mi1\\Desktop\\SleepOb\\SleepOb\\convert.cpp",
+              "RelativeDocumentMoniker": "SleepOb\\convert.cpp",
+              "ToolTip": "C:\\Users\\mi1\\Desktop\\SleepOb\\SleepOb\\convert.cpp",
+              "RelativeToolTip": "SleepOb\\convert.cpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-08T04:00:19.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "common.h",
+              "DocumentMoniker": "C:\\Users\\mi1\\Desktop\\SleepOb\\SleepOb\\common.h",
+              "RelativeDocumentMoniker": "SleepOb\\common.h",
+              "ToolTip": "C:\\Users\\mi1\\Desktop\\SleepOb\\SleepOb\\common.h",
+              "RelativeToolTip": "SleepOb\\common.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-02T05:02:51.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "block.cpp",
+              "DocumentMoniker": "C:\\Users\\mi1\\Desktop\\SleepOb\\SleepOb\\block.cpp",
+              "RelativeDocumentMoniker": "SleepOb\\block.cpp",
+              "ToolTip": "C:\\Users\\mi1\\Desktop\\SleepOb\\SleepOb\\block.cpp",
+              "RelativeToolTip": "SleepOb\\block.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-02T05:02:21.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "rop.cpp",
+              "DocumentMoniker": "C:\\Users\\mi1\\Desktop\\SleepOb\\SleepOb\\rop.cpp",
+              "RelativeDocumentMoniker": "SleepOb\\rop.cpp",
+              "ToolTip": "C:\\Users\\mi1\\Desktop\\SleepOb\\SleepOb\\rop.cpp",
+              "RelativeToolTip": "SleepOb\\rop.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAADOFQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-02T09:37:29.32Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

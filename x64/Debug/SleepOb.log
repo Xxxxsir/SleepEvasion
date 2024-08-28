@@ -1,0 +1,12 @@
+﻿  rop.cpp
+C:\Users\mi1\Desktop\SleepOb\SleepOb\SleepOb\rop.cpp(33,12): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\mi1\Desktop\SleepOb\SleepOb\SleepOb\rop.cpp(66,43): warning C4311: “类型强制转换”: 从“LPVOID”到“DWORD”的指针截断
+C:\Users\mi1\Desktop\SleepOb\SleepOb\SleepOb\rop.cpp(66,43): warning C4302: “类型强制转换”: 从“LPVOID”到“DWORD”截断
+C:\Users\mi1\Desktop\SleepOb\SleepOb\SleepOb\rop.cpp(66,67): warning C4311: “类型强制转换”: 从“PVOID”到“DWORD”的指针截断
+C:\Users\mi1\Desktop\SleepOb\SleepOb\SleepOb\rop.cpp(66,67): warning C4302: “类型强制转换”: 从“PVOID”到“DWORD”截断
+C:\Users\mi1\Desktop\SleepOb\SleepOb\SleepOb\rop.cpp(67,25): warning C4311: “类型强制转换”: 从“LPVOID”到“DWORD”的指针截断
+C:\Users\mi1\Desktop\SleepOb\SleepOb\SleepOb\rop.cpp(67,25): warning C4302: “类型强制转换”: 从“LPVOID”到“DWORD”截断
+C:\Users\mi1\Desktop\SleepOb\SleepOb\SleepOb\rop.cpp(67,46): warning C4311: “类型强制转换”: 从“PVOID”到“DWORD”的指针截断
+C:\Users\mi1\Desktop\SleepOb\SleepOb\SleepOb\rop.cpp(67,46): warning C4302: “类型强制转换”: 从“PVOID”到“DWORD”截断
+C:\Users\mi1\Desktop\SleepOb\SleepOb\SleepOb\rop.cpp(185,16): warning C4477: “printf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“DWORD64”
+  SleepOb.vcxproj -> C:\Users\mi1\Desktop\SleepOb\SleepOb\x64\Debug\SleepOb.exe
