@@ -19,7 +19,7 @@ VOID ropOb(DWORD SleepTime) {
     size_t size = sizeof(mychar);
     size_t len = sizeof(mychar) - 1;
 
-    unsigned char key = 0xAB; //same key you used before
+    unsigned char key = "Your KEY"; //same key you used before
     
     DWORD shellcodeSize = sizeof(mychar);
     DWORD   OldProtect = 0;
