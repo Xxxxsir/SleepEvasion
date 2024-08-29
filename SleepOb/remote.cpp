@@ -73,9 +73,9 @@ unsigned char* GetFile(LPCWSTR szNetPath, LPCWSTR localPath, int Len)
 
 //int main()
 //{
-//    LPCWSTR szUrl = L"http://10.224.193.113:8000/Desktop/load.txt";
+//    LPCWSTR szUrl = L"Your remote address";
 //    LPCWSTR localPath = L"download.txt";
-//    DWORD fileSize = 5046;
+//    DWORD fileSize = "Your fixed file size here";
 //    unsigned char* mychar = GetFile(szUrl, localPath, fileSize);
-//    // 打印文件内容的十六进制表示以验证
+//   
 //}

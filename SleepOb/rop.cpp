@@ -14,8 +14,8 @@ void xor_encrypt_decrypt(unsigned char* data, size_t len, unsigned char key) {
 }
 VOID ropOb(DWORD SleepTime) {
 
-    //shellcode
-    unsigned char mychar[] = "";
+    //shellcode 
+    unsigned char mychar[] = "Your shellcode after encrypted";
     size_t size = sizeof(mychar);
     size_t len = sizeof(mychar) - 1;
 
